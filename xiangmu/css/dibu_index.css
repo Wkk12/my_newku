@@ -1,0 +1,21 @@
+  /* 底部 */
+  .dibu{
+    height: 7.3vh;
+    width: 96vw;
+    display: flex;
+  }
+.dibu>.one{
+    flex: 1;
+    height: 30px;
+    text-align: center;
+    display: block;
+}
+.one>img{
+  height: 30px;
+  margin-top: 1vh;
+  /* 图片大小一样大 */
+  vertical-align: middle;
+}
+.one>span{
+    font-size: 0.62rem;
+}
