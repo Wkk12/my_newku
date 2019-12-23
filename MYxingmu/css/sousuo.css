@@ -1,0 +1,98 @@
+  /* 搜索 */
+  .sousuo{
+    height: 700px;
+  }
+  .sousuo_kuang{
+    padding-bottom: 7px;
+    border-bottom: 3px solid rgba(153, 153, 153, 0.2);
+  }
+  .sousuo_kuangkuang{
+    width: 290px;
+    height: 26px;
+    background-color: rgba(166, 166, 166, 0.1);
+    display: inline-block;
+    margin-left: 14px;
+  }
+  .sousuo_kuangkuang>input{
+    border: 0px solid red;
+    background-color:rgba(166, 166, 166, 0.01) ;
+  }
+  .sousuo_kuangkuang>img{
+    width: 26px;
+    height: 26px;
+  }
+  .sousuo_kuang>span{
+      color: rgba(255, 141, 26, 1);
+      float: right;
+      padding-right: 5px;
+  }
+  
+  .sousuo_center_top{
+    margin-left: 14px;
+    height: 20px;
+    margin-top:13px ;
+    margin-bottom: 15px;
+  }
+  .LSSS_kuang{
+    border-bottom: 2px solid rgba(153, 153, 153, 0.2);
+  }
+
+  .LSSS{
+    font-size: 0.75rem;
+    color: rgba(166, 166, 166, 1);
+  }
+  .sousuo_center_top>img{
+    float: right;
+    height: 20px;
+    width: 20px;
+    /* margin-top:13px ; */
+  }
+  .MRZZ{
+    width: 170px;
+    height: 30px;
+    margin-left: 14px;
+    /* text-align: center; */
+    background-color: rgba(166, 166, 166, 0.1);
+    position: relative;
+  }
+  .MRZZ>span{
+    font-size: 0.88rem;
+    top: 6px;
+    left: 30%;
+    position: absolute;
+    color: rgba(80, 80, 80, 1);
+  }
+  .lishisousuo{
+    margin-left: 14px;
+  }
+ 
+
+  .yi{
+    text-align: center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-color: rgba(166, 166, 166, 1);
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 1) ;
+
+  }
+  .lishi{
+    /* background-color: rgba(153, 153, 153, 0.2); */
+    margin-top: 29px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    
+  }
+  .lishi_text{
+    margin-left: 10px;
+    font-size: 0.88rem;
+     padding-bottom: 13px;
+  }
+  .lishijiantou{
+    /* background-color:  rgba(153, 153, 153, 1);  */
+    width: 10px;
+    color:  rgba(153, 153, 153, 1);
+    float: right;
+    margin-top: 13px;
+  }

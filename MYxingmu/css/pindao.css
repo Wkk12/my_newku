@@ -1,0 +1,134 @@
+.pindao{
+    padding-left: 1.3vw;
+}
+.PD_daohang{
+    width: 98%;
+    height: 11vh;
+    border-bottom:2px solid rgba(153, 153, 153, 0.2);
+}
+.PD_daohang_shang{
+    width: 100%;
+    height: 3.59vh;
+}
+.PD_daohang_shang>img{
+    width: 6.4vw;
+    height: 3.59vh;
+    background-size: cover;
+    float: right;
+}
+.PD_daohang_shang>span{
+    margin-right:7.4vw;
+    font-weight: bold;
+    font-size: 1rem;
+}
+/* 下划线 */
+.dianshiju{
+    color: rgba(255, 141, 26, 1);
+    border-bottom:2px solid rgba(255, 141, 26, 1);
+   padding-bottom:  7px;
+}
+/* 导航下边 */
+.PD_daohang_xia{
+    margin-top: 2vh;
+}
+.PD_daohang_xia>span{
+    margin-right: 7.4vw;
+    border-radius: 20%;
+    background-color:rgba(210, 210, 210, 0.2);
+    color: rgba(128, 128, 128, 1);
+    font-size: 0.88rem;
+}
+/* 热剧精选 */
+.PD_tuijian{
+    width: 98%;
+}
+.tuijian_shang{
+   padding-top: 1.34vh;
+   padding-bottom: 3.74vh;
+}
+.tuijian_shang>img{
+    width: 100%;
+    height: 22.3vh;
+    background-size: cover;
+}
+.tuijian_shang>span{
+    padding-top: 10px;
+    font-size: 0.88rem;
+    font-weight: bold;
+}
+ 
+.tuijian_xiaxia,.zhui_didi{
+    display: flex;
+    padding-top: 1.49vh;
+}
+.tuijian_xia>span , .tuijian_zhui>span{
+    top: 30px;
+    font-size: 1.12rem;
+    font-weight: bold;
+    padding-bottom: 1.79vh;
+}
+.tuijian_xia_one{
+    width: 100%;
+}
+.tuijian_xia_one_tp ,.zhui_di_one_tp{
+    width: 44.8vw;
+    height: 14vh;
+    position: relative;
+}
+.tuijian_xia_one_tp>img,.zhui_di_one_tp>img{
+    width: 44.8vw;
+    height: 14vh;
+    position: absolute;
+    background-size: cover;
+}
+.vip{
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    background-color:rgba(255, 255, 255, 0.1);
+    color: rgba(255, 141, 26, 1);
+}
+.gengxin{
+    position: absolute;
+    bottom: 0.7vh;
+    right: 1.3vw;
+    font-size: 0.62rem;
+    color: rgba(255, 255, 255, 1);
+}
+.tuijian_xia_two_tp ,.zhui_di_two_tp{
+    width: 44.8vw;
+    height: 14vh;
+    position: relative;
+}
+.tuijian_xia_two_tp>img ,.zhui_di_two_tp>img{
+    width: 44.8vw;
+    height: 14vh;
+    position: absolute;
+    background-size: cover;
+}
+.tuijian_xia_one_textda{
+    color: rgba(0, 0, 0, 1);
+    font-size: 0.88rem;
+}
+.tuijian_xia_one_textxiao{
+    color: rgba(166, 166, 166, 1);
+    font-size: 0.75rem;
+}
+
+/*  英美热剧追追追*/
+.tuijian_zhui{
+    width: 99%;
+    padding-top: 2.24vh;
+}
+
+.zhui_top>img{
+    width: 100%;
+    height: 29vh;
+    background-size: cover;
+    padding-bottom: 1.49vh;
+    padding-top:  1.49vh;
+}
+.zhui_didi>div{
+    padding-right: 3.73vw;
+}
+
