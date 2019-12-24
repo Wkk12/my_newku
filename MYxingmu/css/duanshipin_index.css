@@ -1,7 +1,11 @@
 
 .duanshipin{
+    width: 96vw;
+    margin: 0 auto;
+    margin-top:11.2vh ;
+    overflow: scroll;
+    margin-bottom: 7.5vh;
     display: none;
-    /* margin-left: -1vw; */
 }
 
 .daohang{
@@ -65,12 +69,13 @@
     margin-left: 1.3vw;
     background-color:rgba(153, 152, 152,0.2);
 }
-.TV_Screen_dibu>.dibu_wang{
+/* .TV_Screen_dibu>.dibu_wang{
     margin-right: 59px;
-}
+} */
 .TV_Screen_dibu>.tubiao{
-    margin-left: 23px;
-    width: 20px;
-    height: 20px;
+    margin-right: -4px;
+    margin-left: 34px;
+    width: 17px;
+    height: 17px;
     
 }

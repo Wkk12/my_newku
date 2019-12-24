@@ -2,85 +2,105 @@
 // ---------------------首页需要的数据-----------
 var shuju=[
     {
-        img:"../MY——xingm/images/图片 3.jpeg",
+        img:"../MYxingmu/images/图片 3.jpeg",
+        tishi:"更新至44集",
         xiaozi:"小戏骨MV外卖小哥",
         dazi:"萌娃致敬烈日下劳动者",
-        img_T:"../MY——xingm/images/图片 4.jpeg",
+        img_T:"../MYxingmu/images/图片 4.jpeg",
+        tishi_T:"8.8首播",
         xiaozi_T:"惹上冷殿下 8.8首播",
-        dazi_T:"迷妹撩爱豆 饭圈高糖恋"
+        dazi_T:"迷妹撩爱豆 饭圈高糖恋",
+       
     },
     {
-        img:"../MY——xingm/images/图片 5.jpeg",
+        img:"../MYxingmu/images/图片 5.jpeg",
+        tishi:"更新至44集",
         xiaozi:"南方有乔木 TV版",
         dazi:"陈伟霆腹黑开撩白百何",
-        img_T:"../MY——xingm/images/图片 6.jpeg",
+        img_T:"../MYxingmu/images/图片 6.jpeg",
+        tishi_T:"8.2首播",
         xiaozi_T:"爱情进化论·8.2首播",
         dazi_T:"张若昀偷吻张天爱"
     },
     {
-        img:"../MY——xingm/images/图片 7.jpeg",
+        img:"../MYxingmu/images/图片 7.jpeg",
+        tishi:"第二季",
         xiaozi:"明日之子·第二季",
         dazi:"华晨宇痛哭不舍文兆杰",
-        img_T:"../MY——xingm/images/图片 8.jpeg",
+        img_T:"../MYxingmu/images/图片 8.jpeg",
+        tishi_T:"更新至44集",
         xiaozi_T:"入戏·李宏毅",
         dazi_T:"25岁前结婚这想法没变！"
     },
     {
-        img:"../MY——xingm/images/图片 10.jpeg",
+        img:"../MYxingmu/images/图片 10.jpeg",
+        tishi:"综艺节目",
         xiaozi:"幸福三重奏悠享版",
         dazi:"S姐妹召开消灭四害研讨会",
-        img_T:"../MY——xingm/images/图片 11.jpeg",
+        img_T:"../MYxingmu/images/图片 11.jpeg",
+        tishi_T:"更新至44集",
         xiaozi_T:"火箭少女101研究所",
         dazi_T:"宣仪跳浮夸舞蹈wink超可爱"
     },
 ]
 var shujuer=[
     {
-        img:"../MY——xingm/images/图片 热1.jpeg",
+        img:"../MYxingmu/images/图片 热1.jpeg",
+        tishi:"05:56",
         dazi:"马航MH370事件“终极报告”今天将出炉！",
-        img_T:"../MY——xingm/images/图片 热2.jpeg",
+        img_T:"../MYxingmu/images/图片 热2.jpeg",
+        tishi_T:"05:56",
         dazi_T:"8月起这些新规将实施 我们都将收到这样一条短信"
     },
     {
-        img:"../MY——xingm/images/图片 热3.jpeg",
+        img:"../MYxingmu/images/图片 热3.jpeg",
+        tishi:"05:56",
         dazi:"孟美岐演讲实录：我就是那个拿了第一名的女孩",
-        img_T:"../MY——xingm/images/图片 热4.jpeg",
+        img_T:"../MYxingmu/images/图片 热4.jpeg",
+        tishi_T:"05:56",
         dazi_T:"迷妹专访101|yamy：很喜欢有遗憾的感觉"
     },
     {
-        img:"../MY——xingm/images/图片 热5.jpeg",
+        img:"../MYxingmu/images/图片 热5.jpeg",
+        tishi:"05:56",
         dazi:"SNH48总决选前三专访：李艺彤自称未来一片辉煌！",
-        img_T:"../MY——xingm/images/图片 热6.jpeg",
+        img_T:"../MYxingmu/images/图片 热6.jpeg",
+        tishi_T:"05:56",
         dazi_T:"真正的金缕玉衣！古人葬礼都这么奢侈吗"
     }
 ]
 var shujusan=[
     {
-        img:"../MY——xingm/images/MingOne.jpeg",
+        img:"../MYxingmu/images/MingOne.jpeg",
+        tishi:"2018-07-28",
         xiaozi:"九大厂牌候选人争夺战",
         dazi:"2018-07-28 第5期",
 
     },
     {
-        img:"../MY——xingm/images/MingTwo.jpeg",
+        img:"../MYxingmu/images/MingTwo.jpeg",
+        tishi:"2018-07-21",
         xiaozi:"升级战13强冲出重围",
         dazi:"2018-07-21 第4期 ",
 
     },
     {
-        img:"../MY——xingm/images/MingSan.jpeg",
+        img:"../MYxingmu/images/MingSan.jpeg",
+        tishi:"2018-07-14",
         xiaozi:"升级战，三大赛道正面交锋",
         dazi:"2018-07-14 第3期",
 
     },
     {
-        img:"../MY——xingm/images/MingSi.jpeg",
+        img:"../MYxingmu/images/MingSi.jpeg",
+        tishi:"2018-07-07",
         xiaozi:"吴青峰华晨宇超严格考核",
         dazi:"2018-07-07 第2期",
 
     },
     {
-        img:"../MY——xingm/images/MingWu.jpeg",
+        img:"../MYxingmu/images/MingWu.jpeg",
+        tishi:"2018-06-30",
         xiaozi:"李宇春盛世美颜赛道首轮考核",
         dazi:"2018-06-30 第1期",
 

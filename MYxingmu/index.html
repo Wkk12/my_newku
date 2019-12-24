@@ -27,26 +27,6 @@
             padding: 0;
 
         }
-        .app_all >div{
-            width: 96vw;
-            margin: 0 auto;
-            margin-top:11.2vh ;
-            border: 1px solid red;
-            overflow: scroll;
-            margin-bottom: 7.5vh;
-        }
-       
-        .pindao{
-            display: none;
-
-        }
-        .wode{
-            display: none;
-        }
-  
-
-     
-        
     </style>
 </head>
 <body>
@@ -57,10 +37,10 @@
                 <div class="shouye">
                     <div class="sousuo_kuang">
                         <img class="suosuo_img" src="./images/1.svg" alt="">
-                        <input  type="button" value="请输入片名、主演或导演" onClick="location.href=''">
+                        <input  type="text" value="请输入片名、主演或导演" >
                     </div>
                     <div class="lunbotu">
-                        <img class="tu_img" src="./images/图片 2.jpg" alt="">
+                        <img class="tupian_tiaozhuan" id="tu_img" src="./images/图片 2.jpg" alt="">
                         <span>【猎毒人】吕云鹏计划通楚天南中风下线？</span>
                     </div>
                     <!-- 第一个 -->
@@ -177,123 +157,21 @@
                     </div>
                     <div class="wode_dibu">
                         <span>我的看单</span>
-                        <img id="kandan" class="xiaoyuhao" src="./images/WODE_xiaoyuhao.png" alt="">
+                        <img   class="xiaoyuhao" src="./images/WODE_xiaoyuhao.png" alt="">
                     </div>
                     <div class="wode_dibubu">
                         <span>观看历史</span>
                         <img class="xiaoyuhao" src="./images/WODE_xiaoyuhao.png" alt="">
                     </div>
                 </div>
-                <!-- 视频详情 -->
-                <div class="xiangqing"> 
-                    <div class="xiangqing_top">
-                        <img src="./images/XQ.jpg" alt="">
-                    </div>
-                    <div class="xiangqing_center">
-                        <div class="center_one">
-                            <span class="miao">广告倒计时</span>
-                            <span class="shiwu">15</span>
-                            <span class="miao">秒</span>
-                            <span class="tiaoguo">5秒后可跳过</span>
-                        </div>
-                        <div class="center_two">
-                            <div class="center_two_one">
-                                <span class="dierji">明日之子 第2季</span>
-                                <span class="jianjie">></span>
-                                <span class="jianjie">简介</span>
-                                
-                            </div>
-                            <div class="center_two_two">
-                                <span class="zizhi">自制</span>
-                                <span class="xuanxiu">·选秀 · 2.5亿</span>
-                            </div>
-                            <div class="center_two_san">
-                                <span class="gaoqing">高清v</span>
-                                <img src="./images/心.png" alt="">
-                                <img   src="./images/TV_fenxaing.png" alt="">
-                            </div>
-                        </div>
-                        <div class="center_san">
-                            <div class="center_san_one">
-                                <span class="center_san_one_zi">2018-07-28期  看点</span>
-                                <span class="center_san_one_zizi">></span>
-                                <span class="center_san_one_zizi">55</span>
-                            </div>
-                        </div>
-                        <div class="center_san_lunbo">
-                            <ul class="lunbo_ul">
-                                <li  style='color: rgba(255, 141, 26, 1)'; class="bianse">【第二组PK】陆政廷又唱rap，文兆杰田燚《他他他》...</li>
-                                <li>华晨宇没能保住文 兆杰，遗憾到流泪：我觉得不公平</li>
-                                <li>华晨宇没能保住文 兆杰，遗憾到流泪：我觉得不公平</li>
-                                <li>华晨宇没能保住文 兆杰，遗憾到流泪：我觉得不公平</li>
-                                <li>华晨宇没能保住文 兆杰，遗憾到流泪：我觉得不公平</li>
-                                <li>华晨宇没能保住文 兆杰，遗憾到流泪：我觉得不公平</li>
-                                <li>华晨宇没能保住文 兆杰，遗憾到流泪：我觉得不公平</li>
-                                <li>华晨宇没能保住文 兆杰，遗憾到流泪：我觉得不公平</li>
-                                <li>华晨宇没能保住文 兆杰，遗憾到流泪：我觉得不公平</li>
-                            </ul>
-                        </div>
-                        <div class="center_si">
-                            <div class="JCPH_top">
-                                <span class="JCPH_text_one">精彩片花 </span>
-                                <span class="JCPH_text_two">40</span>
-                            </div >
-                            <div class="JCPH_img">
-                                <img src="./images/JCPH1.jpeg" alt="">
-                                <span>华晨宇聊到魔音选手心疼落泪：没想到陆政廷会被淘汰...</span>
-                            </div>
-                            <div class="JCPH_img">
-                                <img src="./images/JCPH2.jpeg" alt="">
-                                <span>文兆杰专访：没想过自己会复活，以后不会在让花花失望</span>
-                            </div>
-                            <div class="JCPH_img">
-                                <img src="./images/JCPH3.jpeg" alt="">
-                                <span>斯外戈专访：能复活超开心,最对不起和感谢的人是春春</span>
-                            </div>
-                            <div class="JCPH_dibu">
-                                <span>全部</span>
-                            </div>
-                        </div>
-
-                        <div class="center_si">
-                            <div class="JCPH_top">
-                                <span class="JCPH_text_one">为你推荐 </span>
-                            </div >
-                            <div class="JCPH_img">
-                                <img src="./images/WNTJ1.jpeg" alt="">
-                                  <div class="JCPH_img_span">
-                                    <span>我家那小子</span></br>
-                                    <span class="JCPH_img_span_xiaozi">第4期：父母离异，陈学冬武艺受影响</span>
-                                  </div>
-                            </div>
-                            <div class="JCPH_img">
-                                <img src="./images/WNTJ2.jpeg" alt="">
-                                <div class="JCPH_img_span">
-                                    <span>放开我北鼻 第3季</span></br>
-                                    <span class="JCPH_img_span_xiaozi">第10期：释小龙空降少林寺教萌娃练功夫</span>
-                                  </div>
-                            </div>
-                            <div class="JCPH_img">
-                                <img src="./images/WNTJ3.jpeg" alt="">
-                                <div class="JCPH_img_span">
-                                    <span>明日之子悠享版</span></br>
-                                    <span class="JCPH_img_span_xiaozi">悠享版第8期：赛道分组密室讨论全程</span>
-                                  </div>
-                            </div>
-                            <div class="JCPH_dibu">
-                                <span>全部</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <!-- 搜索 -->
                 <div class="sousuo">
-                    <div class="sousuo_kuang">
+                    <div class="sousuo_kuang_kuang">
                         <div class="sousuo_kuangkuang">
-                            <img class="suosuo_img" src="./images/sousuo灰色.png" alt="">
+                            <img class="suosuo_kuang_img" src="./images/sousuo灰色.png" alt="">
                             <input  type="text" value="请输入片名、主演或导演" onClick="location.href=''">
                         </div>
-                        <span>取消</span>
+                        <span class="quxiao">取消</span>
                     </div>
                     <div class="sousuo_center">
                         <div class="sousuo_center_top"> 
@@ -309,15 +187,6 @@
                        
                     </div>
                    
-                </div>
-                <!-- 我的看单 -->
-                <div class="kandan">
-                    <div class="kandan_top">
-                    </div>
-                    <div class="kandan_dibu">
-                        <span>编辑</span>
-                    </div>
-                    
                 </div>
         </div>
         <!-- 底部 -->
@@ -354,7 +223,4 @@
 <script src="./js/my_data.js"></script>
 <script src="./js/all_index.js"></script>
 <script src="./js/my_tabbar.js"></script>
-<script>
-   
-</script>
 </html>

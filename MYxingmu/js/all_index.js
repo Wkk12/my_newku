@@ -7,12 +7,18 @@ for(var i = 0; i<shuju.length;i++){
 
                 <div class="list_one">
                     <div class="kuang">
-                        <img  src="`+one_data.img+`" alt=""> 
+                        <div class="list_one_kuang">
+                            <img  src="`+one_data.img+`" alt=""> 
+                            <span>`+one_data.tishi+`</span>
+                        </div>
                         <span class="xiaozi">`+ one_data.xiaozi+`</span> </br>
                         <span class="dazi">`+one_data.dazi+`</span>
                     </div>
                     <div class="kuang">
-                        <img  src="`+one_data.img_T+`" alt="">
+                        <div class="list_one_kuang">
+                            <img  src="`+one_data.img_T+`" alt="">
+                            <span>`+one_data.tishi_T+`</span>
+                        </div>
                         <span  class="xiaozi">`+one_data.xiaozi_T+`</span> </br>
                         <span class="dazi">`+one_data.dazi_T+`</span>
                     </div>
@@ -27,11 +33,17 @@ for(var i = 0; i<shujuer.length;i++){
     content_str_er +=`
                 <div class="list_one">
                     <div class="kuang">
-                        <img  src="`+two_data.img+`" alt=""> 
+                    <div class="list_one_kuang">
+                    <img  src="`+two_data.img+`" alt=""> 
+                        <span>`+two_data.tishi+`</span>
+                    </div>
                         <span  class="xiaozi">`+two_data.dazi+`</span>
                     </div>
                     <div class="kuang">
+                    <div class="list_one_kuang">
                         <img  src="`+two_data.img_T+`" alt="">
+                        <span>`+two_data.tishi_T+`</span>
+                    </div>
                         <span class="xiaozi">`+two_data.dazi_T+`</span>
                     </div>
                 </div>`
@@ -45,7 +57,10 @@ for(var i = 0; i<shujusan.length;i++){
     content_str_san +=`
                 <div class="San" >
                         <div class="xiao_kuang">
-                            <img  src="`+san_data.img+`" alt=""> </br>
+                            <div class="SAN_tishi">
+                                <img  src="`+san_data.img+`" alt=""> </br>
+                                <span>`+san_data.tishi+`</span>
+                            </div>
                             <span class="xiaozi">`+ san_data.xiaozi+`</span> </br>
                             <span class="dazi">`+san_data.dazi+`</span>
                         </div>    

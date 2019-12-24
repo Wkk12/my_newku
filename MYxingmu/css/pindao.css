@@ -1,4 +1,10 @@
 .pindao{
+    width: 96vw;
+    margin: 0 auto;
+    margin-top:11.2vh ;
+    overflow: scroll;
+    margin-bottom: 7.5vh;
+    display: none;
     padding-left: 1.3vw;
 }
 .PD_daohang{
@@ -32,7 +38,7 @@
     margin-top: 2vh;
 }
 .PD_daohang_xia>span{
-    margin-right: 7.4vw;
+    margin-right: 4.4vw;
     border-radius: 20%;
     background-color:rgba(210, 210, 210, 0.2);
     color: rgba(128, 128, 128, 1);

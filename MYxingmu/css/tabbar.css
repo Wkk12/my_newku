@@ -3,6 +3,7 @@
     height: 7.3vh;
     position: fixed;
     bottom: 0px;
+    z-index: 9999;
     display: flex;
     border: 1px solid black;
 }
