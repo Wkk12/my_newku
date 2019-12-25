@@ -1,0 +1,104 @@
+  /* 搜索 */
+  .sousuo{
+    width: 96vw;
+    margin: 0 auto;
+    margin-top:11.2vh ;
+    overflow: scroll;
+    margin-bottom: 7.5vh;
+    display: none;
+}
+  .sousuo_kuang{
+    padding-bottom: 1vh;
+    border-bottom: 3px solid rgba(153, 153, 153, 0.2);
+  }
+  .sousuo_kuangkuang{
+    width: 67.2vw;;
+    height: 3.89vh;
+    background-color: rgba(166, 166, 166, 0.1);
+    display: inline-block;
+    margin-left: 3.73vw;
+    position: relative;
+  }
+  .sousuo_kuangkuang>input{
+    border: 0px solid red;
+    position: absolute;
+    top: 0.5vh;
+    background-color:rgba(166, 166, 166, 0.01) ;
+  }
+  .sousuo_kuangkuang>img{
+    width: 26px;
+    height: 26px;
+  }
+  .sousuo_kuang>span{
+      color: rgba(255, 141, 26, 1);
+      float: right;
+      padding-right: 5px;
+  }
+  
+  .sousuo_center_top{
+    margin-left: 3.73vw;
+    height: 2.99vh;
+    margin-top:1.94vh ;
+    margin-bottom: 2.2vh;
+  }
+  .LSSS_kuang{
+    border-bottom: 2px solid rgba(153, 153, 153, 0.2);
+  }
+
+  .LSSS{
+    font-size: 0.75rem;
+    color: rgba(166, 166, 166, 1);
+  }
+  .sousuo_center_top>img{
+    float: right;
+    height: 20px;
+    width: 20px;
+  }
+  .MRZZ{
+    width: 45.3vw;
+    height: 30px;
+    margin-left: 14px;
+    background-color: rgba(166, 166, 166, 0.1);
+    position: relative;
+  }
+  .MRZZ>span{
+    font-size: 0.88rem;
+    top: 6px;
+    left: 30%;
+    position: absolute;
+    color: rgba(80, 80, 80, 1);
+  }
+  .lishisousuo{
+    margin-left: 0.37vw;
+  }
+  .yi{
+    text-align: center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-color: rgba(166, 166, 166, 1);
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 1) ;
+
+  }
+  .quxiao{
+    float: right;
+    color: rgba(255, 141, 26, 1);
+    font-size: 0.88rem;
+  }
+  .lishi{
+    margin-top: 29px;
+    margin-bottom: 10px;
+    
+  }
+  .lishi_text{
+    margin-left: 10px;
+    font-size: 0.88rem;
+     padding-bottom: 13px;
+  }
+  .lishijiantou{
+    width: 10px;
+    color:  rgba(153, 153, 153, 1);
+    float: right;
+    margin-top: 13px;
+  }

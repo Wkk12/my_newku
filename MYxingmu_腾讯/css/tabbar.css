@@ -1,0 +1,31 @@
+.app_tabbar{
+    width: 100vw;
+    height: 7.3vh;
+    position: fixed;
+    bottom: 0px;
+    z-index: 9999;
+    display: flex;
+    /* display: block; */
+    border: 1px solid black;
+}
+/* 底部的四个小块 */
+ .tabbar_item{
+     background-color: white;
+     flex: 1;
+     text-align: center;
+     padding: 0px;
+ }
+ .tabbar_item>div{
+     height: 0.49vh;
+     padding: 0.49vh 0 0 0 ;
+     vertical-align: middle;
+ }
+ .tabbar_item div img{
+     width: 25%;
+     
+     background-size: cover;
+ }
+ .tabbar_item>span{
+     font-size: 0.62rem;
+     
+ }
