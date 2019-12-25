@@ -1,0 +1,78 @@
+.kandan{
+    margin: 0 auto;
+    overflow: scroll;
+    /* display: none; */
+}
+.shangyibu{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.shangyibu>img{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+.shangyibu>span{
+    display: inline-block;
+    height: 30px;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+}
+.kandan_kuang{
+    display: flex;
+    position: relative;
+    padding-bottom: 1.14vh;
+    padding-top: 0.6vh;
+}
+.kandan_kuangyi{
+    position: relative;
+    width: 56.8vw;
+    height: 14vh;
+}
+.kandan_top{
+    border-bottom: 2px solid rgba(153, 153, 153, 0.2);
+}
+.kandan_kuangyi>img{
+    position: absolute;
+    width: 45.8vw;
+    height: 14vh;
+    background-size: cover;
+    border-radius: 5%;
+}
+.kandan_kuangyi>span{
+    position: absolute;
+    margin: 5px 123px;
+    float: right;
+    height: 2.69vh;
+    width: 8vw;
+    font-size: 0.75rem;
+    background-color: rgba(255, 141, 26, 1);
+    border-radius: 0.22rem;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.kanda_kuanger{
+    padding: 2.69vh 4vw 0.74vh;
+   width: 54.4vw;
+}
+.kuang_text_one{
+    font-size: 0.88rem;
+    font-weight: bold;
+}
+.kuang_text_two{
+    font-size: 0.88rem;
+    color: rgba(166, 166, 166, 1);
+}
+.kandan_dibu{
+    height: 7.34vh;
+    text-align:center;
+    position: relative;
+   
+}
+.kandan_dibu>span{
+    position: absolute;
+    top: 1.49vh;
+    font-size: 1rem;
+}

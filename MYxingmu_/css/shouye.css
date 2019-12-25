@@ -1,0 +1,124 @@
+/* 首页 */
+.shouye{
+   width: 96vw;
+   margin: 0 auto;
+   margin-top:11.2vh ;
+   overflow: scroll;
+   margin-bottom: 7.5vh;
+   display: block;
+   padding-left: 5px;
+}
+.sousuo_kuang{
+   height: 3.8vh;
+}
+.suosuo_img{
+   height: 100%;
+   vertical-align: middle;
+}
+.sousuo_kuang>input{
+    border: 0px solid red;
+    background-color: white;
+}
+/* 轮播图 */
+.lunbotu{
+   margin-top: 1.49vh;
+   width: 96%;
+}
+#tu_img{
+   width: 100%;
+   background-size: cover;
+}
+.lunbotu>span{
+   width: 100%;
+   padding-top: 0.7vh;
+   margin-bottom: 29.9vh;
+   font-weight: bold;
+   font-size: 0.88rem;
+   margin-top: 29.9vh;
+}
+/* 列表 */
+.list{
+   width: 100%;
+   margin-top: 1.49vh;
+}
+.kuang{
+  padding-top: 1.49vh;
+   width: 44.8vw;
+   margin: 0 9px 2px 0;
+}
+.kuang>.list_one_kuang>img{
+   width: 44.8vw;
+   height: 14vh;
+}
+.list_one_kuang{
+   position: relative;
+}
+.list_one_kuang>span{
+   position: absolute;
+   right: 2.66vw;
+   bottom: 0.7vh;
+   font-size: 0.62rem;
+   color: rgba(255, 255, 255, 1);
+}
+/* 底部 */
+.SAN_tishi{
+   position: relative;
+   
+}
+.SAN_tishi>img{
+   width: 44.8vw;
+   height: 14vh;
+   
+}
+.SAN_tishi>span{
+   position: absolute;
+   right: 4.8vw;
+   bottom: 0.7vh;
+   font-size: 0.62rem;
+   color: rgba(255, 255, 255, 1);
+}
+.San{
+   width: 100%;
+   padding-top: 5px;
+}
+
+.xiao_kuang{
+   width: 100%;
+   margin: 2vh 2.6vw 0 0 ;
+}
+.list_san{
+   overflow-X: scroll;
+   overflow: none;
+   display: flex;
+   white-space: nowrap;
+}
+.disange{
+   margin-top: 1.1vh;
+}
+
+.list_text{
+   font-weight: bold;
+   font-size: 1.12rem;
+   width: 0%;
+}
+.dazi{
+   font-size:0.75rem ;
+   color:rgba(166, 166, 166, 1) ;
+}
+.xiaozi{
+   font-size:0.88rem ;
+   font-weight: bold;
+}
+.list_one{
+   display: flex;
+}
+/*刷新 */
+.shuaxin>img{
+width: 3.7vw;
+height: 2vh;
+padding: 0 0 0 35% ;
+}
+.shuaxin>span{
+   font-size: 0.75rem;
+   color: rgba(116, 116, 116, 1);
+}

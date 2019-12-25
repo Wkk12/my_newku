@@ -1,0 +1,81 @@
+
+.duanshipin{
+    width: 96vw;
+    margin: 0 auto;
+    margin-top:11.2vh ;
+    overflow: scroll;
+    margin-bottom: 7.5vh;
+    display: none;
+}
+
+.daohang{
+    margin-bottom: 2.5vh;
+}
+.xiaokuang{
+    width: 100%;
+    overflow: scroll;
+}
+.xiaokuang>ul{
+    width: 283%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.xiaokuang>ul>li{
+    width: 18vw;
+    height: 3.59vh;
+    float: left;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+.TV_Screen_top{
+    position: relative;
+}
+.TV_Screen_top>span{
+    position: absolute;
+    top: 1.7vh;
+    left: 4vw;
+    color: rgba(255, 255, 255, 1);
+    font-weight:bold;
+    z-index: 9999;
+}
+.TV_Screen_top>img{
+    width: 96vw;
+    background-size: cover;
+    /* 背景变灰透明 */
+    filter: saturate(1.0) hue-rotate(0deg) brightness(0.6) contrast(1.0);
+}
+/* 小篮筐 */
+.TV_Screen_dibu{
+    width: 89vw;
+    height: 2.54vh;
+    display: flex;
+    margin-top: 1.7vh;
+    margin-bottom: 1.7vh;
+    text-align: center;
+}
+.xiaoyuan{
+    width: 4.4vw;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-left: 2vw;
+}
+.TV_Screen_dibu>span{
+    margin-left: 1.3vw;
+    width:18.6vw;
+    border-radius: 30px;
+    font-size: 0.75rem;
+    margin-left: 1.3vw;
+    background-color:rgba(153, 152, 152,0.2);
+}
+/* .TV_Screen_dibu>.dibu_wang{
+    margin-right: 59px;
+} */
+.TV_Screen_dibu>.tubiao{
+    margin-right: -4px;
+    margin-left: 34px;
+    width: 17px;
+    height: 17px;
+    
+}
